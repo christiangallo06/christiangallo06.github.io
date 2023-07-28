@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-size:24px;
+}
+
+img,
+iframe {
+	max-width: 100%;
+	height: auto;
+	border:0;
+}
+body {
+	font-family: arial, sans-serif;
+}
+body {
+      background-color: yellow;
+     }
+header {
+       background-color: red;
+       }
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. */
+header, footer {
+               text-align: center;
+               }
+/* TYPOGRAPHY*/
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 50px;
+	colour: #fff; /*white*/
+	text-transform: uppercase;
+	padding-bottom: 1em;
+}
+h2 {
+	font-family: 'Gloria Hallelujah', cursive;
+	padding-bottom: 1em;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+p,li {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-bottom: 1em;
+}
+.item {
+	background-color: rgba(255,191,0,0.90);
+	padding:1%;
+	margin:1%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+main {
+max-width:1000px;
+margin-left: auto;
+margin-right: auto;
+}
+.item li {
+          margin-left: 25px;
+}
+blockquote {
+text-transform: uppercase; 
+font-style: italic;
+}
+nav {
+
+text-align: center;
+}
+nav li {
+		font-family: 'Marck Script', cursive;
+display: inline-block;
+}
+/* nav li a, or nav a ?? */ 
+nav a {
+background: white; 
+color: black;
+padding: 5px; 
+text-decoration: none; 
+border-radius: 5px;
+}
+nav a:hover {
+background: orange;
+}
+body {
+background-color: black;
+background-image: url("different file.png");
+background-repeat: repeat;
+}
+
+
+
+
+
+
+
+.pizza{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+
+
+.logo{
+ display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:17%;
+
+}
+
+
+
+
+footer{
+	color: white;
+}
